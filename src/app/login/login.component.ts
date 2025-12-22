@@ -25,7 +25,7 @@ ngOnInit(): void {
     const state = crypto.randomUUID();
 
     const url =
-      `${environment.baseUrl}/sso/verify?tenantId=${environment.tenantId}` +
+      `${environment.baseUrl}/verify?tenantId=${environment.tenantId}` +
       `&authType=OpenID` +
       `&type=OpenID` +
       `&urlIdentifier=${environment.urlIdentifier}` +
